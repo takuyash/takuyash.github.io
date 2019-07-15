@@ -8,5 +8,5 @@ var works = [
     {'id':'work3','title':'利用者端末管理システム','description':'ネットワークを利用する利用者の端末を管理するシステム。','technology':'Ruby、Ruby on Rails、JavaScript、Bootstrap',
     'images':['imgs/portfolio/terminalControl.png'],'url':''},
     {'id':'work4','title':'パケットモニタリングシステム','description':'パケット量を表示し可視化するシステム。','technology':'Ruby、Ruby on Rails、JavaScript、Highcharts',
-    'images':['imgs/portfolio/packetmonitoring2.png','imgs/portfolio/packetmonitoring3.png','imgs/portfolio/packetmonitoring1.png'],'url':''}
+    'images':['imgs/portfolio/packetmonitoring2.png','imgs/portfolio/packetmonitoring3.png','imgs/portfolio/packetmonitoring1.png'],'url':''},
 ];
