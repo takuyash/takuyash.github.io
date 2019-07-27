@@ -10,5 +10,7 @@ var works = [
     'description':'OpenFlowを用いて、外部ネッワークとの通信の際には利用者1人に1つのグローバルIPアドレスに変換され、さらに利用者別に論理的な個別プライベートネットワークを構築するNAPT。トポロジ検出機能と最適経路決定機能も持つ。',
     'technology':'Ruby、OpenFlow(Trema 0.4.7)','images':['imgs/portfolio/personalNapt1.png','imgs/portfolio/personalNapt2.png'],'url':''},
     {'id':'work5','title':'プライベートポートフォリオサイト','description':'個人で作成したシステムをまとめたポートフォリオサイト。','technology':'HTML5、JavaScript、Bootstrap',
-    'images':['imgs/portfolio/portfoliosite1.png','imgs/portfolio/portfoliosite2.png'],'url':'https://takuyash.github.io/'}, 
+    'images':['imgs/portfolio/portfoliosite1.png','imgs/portfolio/portfoliosite2.png','imgs/portfolio/portfoliosite3.png'],'url':'https://takuyash.github.io/'}, 
+    {'id':'work6','title':'カラーピッカー','description':'カラーピッカー。','technology':'HTML5、JavaScript、Bootstrap',
+    'images':['imgs/portfolio/colorPicker1.png'],'url':'https://takuyash.github.io/color-picker/color-picker.html'}, 
 ];
