@@ -296,6 +296,11 @@ footer span.copyright, footer ul.quicklinks {
 		margin: 0 0 30px
 	}
 }
+@media (min-width: 390px) and (max-width: 767px) {
+	.img-responsive {
+		min-width: 100%;
+	}
+}
 .timeline {
 	list-style: none;
 	padding: 0;
