@@ -728,6 +728,15 @@ img::-moz-selection {
     -o-transform: rotate(180deg);
 }
 
+.label_tag_red{
+  background-color:red;
+  color:white;
+  border-radius: 3px;
+  font-size: 11px;
+  display: inline-block;
+  padding: 2px 8px;
+  margin: 0 5px 5px 0;
+}
 
 
 
