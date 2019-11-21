@@ -2,7 +2,7 @@ var works = [
     {'id':'work1','title':'フローエントリ検索システム','description':'フローエントリを検索し、パケット量をグラフで可視化するシステム。','technology':['Ruby','Ruby on Rails','SQLite3','JavaScript','Highcharts'],
     'images':['imgs/portfolio/packetmonitoring2.png','imgs/portfolio/packetmonitoring1.png','imgs/portfolio/packetmonitoring3.png'],'url':''}, 
     {'id':'work2','title':'情報処理技術者試験カレンダー','description':'情報処理技術者試験までの日数を表示するシステム。','technology':['HTML5','JavaScript'],
-     'images':['imgs/portfolio/calender.png'],
+     'images':['imgs/portfolio/calender1.png'],
      'url':'https://takuyash.github.io/calendar/'},
     {'id':'work3','title':'利用者端末管理システム','description':'ネットワークを利用する利用者の端末を管理するシステム。','technology':['Ruby','Ruby on Rails','SQLite3','JavaScript','Bootstrap'],
     'images':['imgs/portfolio/terminalControl1.png','imgs/portfolio/terminalControl2.png','imgs/portfolio/terminalControl3.png','imgs/portfolio/terminalControl4.png'],'url':''},
