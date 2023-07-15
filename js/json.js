@@ -13,4 +13,7 @@ var works = [
     'images':['imgs/portfolio/portfoliosite1.png','imgs/portfolio/portfoliosite2.png','imgs/portfolio/portfoliosite3.png'],'url':'https://takuyash.github.io/'}, 
     {'id':'work6','title':'カラーピッカー','description':'カラーピッカー。','technology':['HTML5','JavaScript','Bootstrap'],
     'images':['imgs/portfolio/colorPicker1.png'],'url':'https://takuyash.github.io/color-picker/color-picker.html'}, 
+    {'id':'work7','title':'mild_document_replace_tool','description':'マイルドな文章に置き換えるChrome拡張機能。','technology':['HTML5','JavaScript'],
+     'images':['imgs/portfolio/mild_document_replace_tool1.png'],
+     'url':''},
 ];
