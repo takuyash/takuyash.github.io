@@ -13,4 +13,6 @@ var works = [
     'images':['imgs/portfolio/calculator1.png'],'url':'https://takuyash.github.io/Calculator/Calculator_All.html'}, 
     {'id':'work6','title':'プライベートポートフォリオサイト','description':'個人で作成したシステムをまとめたポートフォリオサイト。','technology':['HTML5','JavaScript'],
     'images':['imgs/portfolio/portfoliosite1.png'],'url':'https://takuyash.github.io/'}, 
+    {'id':'work7','title':'SimpleFolderLauncher','description':'Windowsフォルダをそのまま使える、超軽量・超高速フォルダランチャー。Windows の任意のフォルダを “そのままランチャー” として利用できる、 超軽量・超高速・設定不要のフォルダランチャー です。','technology':['C#'],
+    'images':['imgs/portfolio/SimpleFolderLauncher1.png'],'url':'https://github.com/takuyash/SimpleFolderLauncher'}, 
 ];
