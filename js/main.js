@@ -6,10 +6,23 @@ document.addEventListener("DOMContentLoaded", () => {
         const card = document.createElement("div");
         card.className = "card";
 
-        const img = work.images?.[0] || "";
+        // ===== 画像部分 =====
+        let imageHtml = "";
+
+        if (work.images && work.images.length > 1) {
+            imageHtml = `
+                <div class="slider">
+                    <img src="${work.images[0]}" alt="${work.title}">
+                    <button class="nav prev">‹</button>
+                    <button class="nav next">›</button>
+                </div>
+            `;
+        } else {
+            imageHtml = `<img src="${work.images?.[0] || ""}" alt="${work.title}">`;
+        }
 
         card.innerHTML = `
-            <img src="${img}" alt="${work.title}">
+            ${imageHtml}
             <div class="card-body">
                 <div class="card-title">${work.title}</div>
 
@@ -27,14 +40,32 @@ document.addEventListener("DOMContentLoaded", () => {
             </div>
         `;
 
-        // 詳細トグル
+        // ===== 詳細トグル =====
         card.querySelector(".toggle").addEventListener("click", () => {
             card.querySelector(".details").classList.toggle("open");
         });
 
+        // ===== スライダー制御 =====
+        if (work.images && work.images.length > 1) {
+            let current = 0;
+            const img = card.querySelector(".slider img");
+            const prev = card.querySelector(".prev");
+            const next = card.querySelector(".next");
+
+            prev.addEventListener("click", () => {
+                current = (current - 1 + work.images.length) % work.images.length;
+                img.src = work.images[current];
+            });
+
+            next.addEventListener("click", () => {
+                current = (current + 1) % work.images.length;
+                img.src = work.images[current];
+            });
+        }
+
         container.appendChild(card);
 
-        // フェードイン（遅延）
+        // フェードイン
         setTimeout(() => card.classList.add("show"), index * 120);
     });
 });
