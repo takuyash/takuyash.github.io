@@ -6,7 +6,7 @@ var works = [
     {'id':'work3','title':'利用者別NAPT',
     'description':'OpenFlowを用いて、外部ネッワークとの通信の際には利用者1人に1つのグローバルIPアドレスに変換され、さらに利用者別に論理的な個別プライベートネットワークを構築するNAPT。トポロジ検出機能(LLDPを使用)と最適経路決定機能(ダイクストラ法を使用)も持つ。',
     'technology':['Ruby','OpenFlow(Trema 0.4.7)'],'images':['imgs/portfolio/personalNapt1.png','imgs/portfolio/personalNapt2.png'],'url':''},
-    {'id':'work4','title':'mild_document_replace_tool','description':'マイルドな文章に置き換えるChrome拡張機能。','technology':['HTML5','JavaScript'],
+    {'id':'work4','title':'mild_document_replace_tool','description':'開いているサイトの文章をマイルドな文章に置き換えるChrome拡張機能。','technology':['HTML5','JavaScript'],
      'images':['imgs/portfolio/mild_document_replace_tool1.png'],
      'url':''},
     {'id':'work5','title':'電卓','description':'様々なCSSライブラリで電卓を作成したものを一覧にしたサイト','technology':['HTML5','JavaScript'],
@@ -15,4 +15,6 @@ var works = [
     'images':['imgs/portfolio/portfoliosite1.png'],'url':'https://takuyash.github.io/'}, 
     {'id':'work7','title':'SimpleFolderLauncher','description':'Windowsフォルダをそのまま使える、超軽量・超高速フォルダランチャー。Windows の任意のフォルダを “そのままランチャー” として利用できる、 超軽量・超高速・設定不要のフォルダランチャー です。','technology':['C#'],
     'images':['imgs/portfolio/SimpleFolderLauncher1.png'],'url':'https://github.com/takuyash/SimpleFolderLauncher'}, 
+    {'id':'work8','title':'YearAndMonthprogress','description':'年毎月毎の進捗を可視化するサイト','technology':['HTML5','JavaScript'],
+    'images':['imgs/portfolio/YearAndMonthprogress1.png'],'url':'https://takuyash.github.io/YearAndMonthprogress/YearAndMonthprogress.html'}, 
 ];
