@@ -168,3 +168,41 @@ h1 {
 .slider .next {
     right: 8px;
 }
+
+/* ===== 画像拡大モーダル ===== */
+.image-modal {
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,.85);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 9999;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity .2s ease;
+}
+
+.image-modal.show {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.image-modal img {
+    max-width: 90vw;
+    max-height: 90vh;
+    object-fit: contain;
+    background: #000;
+    border-radius: 8px;
+}
+
+/* 閉じるボタン */
+.image-modal .close {
+    position: absolute;
+    top: 16px;
+    right: 20px;
+    font-size: 28px;
+    color: #fff;
+    cursor: pointer;
+    user-select: none;
+}
