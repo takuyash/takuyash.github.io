@@ -4,7 +4,7 @@ var works = [
     {'id':'work2','title':'プライベートポートフォリオサイト','description':'個人で作成したシステムをまとめたポートフォリオサイト。','technology':['HTML5','JavaScript'],
     'images':['imgs/portfolio/portfoliosite1.png'],'url':'https://takuyash.github.io/'}, 
     {'id':'work3','title':'SimpleFolderLauncher','description':'Windowsフォルダをそのまま使える、超軽量・超高速フォルダランチャー。Windows の任意のフォルダを “そのままランチャー” として利用できる、 超軽量・超高速・設定不要のフォルダランチャー です。','technology':['C#'],
-    'images':['imgs/portfolio/SimpleFolderLauncher1.png','imgs/portfolio/SimpleFolderLauncher2.png','imgs/portfolio/SimpleFolderLauncher3.gif'],'url':'https://takuyash.github.io/SimplefolderlauncherSite/index.html'}, 
+    'images':['imgs/portfolio/SimpleFolderLauncher1.png','imgs/portfolio/SimpleFolderLauncher2.gif','imgs/portfolio/SimpleFolderLauncher3.png'],'url':'https://takuyash.github.io/SimplefolderlauncherSite/index.html'}, 
     {'id':'work4','title':'SimpleFolderLauncherSite','description':'SimpleFolderLauncherの紹介サイトです。','technology':['HTML5'],
     'images':['imgs/portfolio/SimpleFolderLauncherSite1.png'],'url':'https://takuyash.github.io/SimplefolderlauncherSite/index.html'}, 
     {'id':'work5','title':'YearAndMonthprogress','description':'年毎月毎の進捗を可視化するサイト','technology':['HTML5','JavaScript'],
